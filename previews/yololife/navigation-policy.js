@@ -1,9 +1,9 @@
 (()=>{
 'use strict';
-const detail='/yololife/store.insta360.com/product/luna-series/index.html';
-const home='/yololife/store.insta360.com/index.html';
+const detail='/yololife/product/luna-series/';
+const home='/yololife/';
 const isDetail=/\/product\/luna-series(?:\/|$)/.test(location.pathname);
-const isHome=/\/store\.insta360\.com\/(?:index\.html)?$/.test(location.pathname);
+const isHome=location.pathname===home||location.pathname===home+'index.html';
 const isProduct=el=>isHome&&el.matches('a.product,a.bundle');
 const isBuy=el=>el.matches('[data-buy-now]')||/^(buy\s*now)$/i.test(el.textContent.trim());
 function clean(){
