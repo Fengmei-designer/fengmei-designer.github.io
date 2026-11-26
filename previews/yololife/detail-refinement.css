@@ -16,5 +16,8 @@
 @media(max-width:767px){#pStickyTabBar #product_submit_btn,#pStickyTabBar #product_submit_btn *,#pStickyTabBar .detail-buy-now,#pStickyTabBar .detail-buy-now *{font-size:13px!important;line-height:20px!important}}
 
 /* Predictable select spacing across browsers. */
-#pStickyTabBar .yolo-delivery-row select{appearance:none;-webkit-appearance:none;box-sizing:border-box;width:160px;max-width:160px;height:36px;padding:0 36px 0 12px;font-family:inherit;font-size:14px;font-weight:400;line-height:20px;border:0;border-radius:4px;background-color:#f1f8f1;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%233eae43' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:16px 16px}
+#pStickyTabBar .yolo-delivery-row select{appearance:none;-webkit-appearance:none;box-sizing:border-box;width:120px;max-width:120px;height:36px;padding:0 36px 0 12px;font-family:inherit;font-size:14px;font-weight:400;line-height:20px;border:0;border-radius:4px;background-color:#f1f8f1;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%233eae43' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:16px 16px}
 #pStickyTabBar .yolo-delivery-row select:focus-visible{outline:2px solid #3eae43;outline-offset:2px}
+
+/* Desktop purchase widths requested by the design. */
+@media(min-width:768px){#pStickyTabBar #product_submit_btn{width:140px!important;min-width:140px!important;flex:0 0 140px}#pStickyTabBar .detail-buy-now{width:180px;min-width:180px;flex:0 0 180px}}
