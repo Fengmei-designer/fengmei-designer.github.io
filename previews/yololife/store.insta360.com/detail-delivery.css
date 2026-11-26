@@ -1,0 +1,8 @@
+#pStickyTabBar .yolo-delivery{display:flex!important;align-items:flex-start;gap:16px;min-width:0;flex:1;padding-right:24px}
+#pStickyTabBar .yolo-truck{width:24px;height:24px;flex-shrink:0;color:#909090;margin-top:8px}
+#pStickyTabBar .yolo-delivery-row{display:flex;align-items:center;gap:8px;color:#292929}
+#pStickyTabBar .yolo-delivery-row label{font-size:16px;font-weight:600;white-space:nowrap}
+#pStickyTabBar .yolo-delivery-row select{font:inherit;font-size:16px;color:#0066ff;background:#f5f5f5;border:0;border-radius:6px;padding:7px 28px 7px 10px;cursor:pointer;max-width:190px}
+#pStickyTabBar .yolo-delivery-copy p{font-size:14px;line-height:1.4;color:#666;margin:6px 0 0;white-space:normal}
+@media(max-width:1100px){#pStickyTabBar .yolo-delivery{gap:8px;padding-right:12px}#pStickyTabBar .yolo-delivery-copy p{font-size:12px}}
+@media(max-width:768px){#pStickyTabBar .gvkLwE_8{flex-wrap:wrap}#pStickyTabBar .yolo-delivery{flex:0 0 100%;padding:8px 0}#pStickyTabBar .yolo-delivery-row label,#pStickyTabBar .yolo-delivery-row select{font-size:14px}#pStickyTabBar .yolo-delivery-copy p{margin-top:2px}}

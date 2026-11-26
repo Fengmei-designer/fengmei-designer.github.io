@@ -1,0 +1,42 @@
+[
+  {
+    "nickName": "Demo customer 01",
+    "reviewRate": 5,
+    "reviewTitle": "A lovely little planted habitat",
+    "reviewContent": "The clear glass makes the planted setup easy to enjoy from every angle. The compact footprint works well on my display cabinet.",
+    "commodityName": "Exo Terra Pro Terrarium \u00b7 Demo review",
+    "reviewTime": 1795478400000,
+    "likeCount": 0,
+    "isDemo": true
+  },
+  {
+    "nickName": "Demo customer 02",
+    "reviewRate": 5,
+    "reviewTitle": "Easy access for daily care",
+    "reviewContent": "The front opening makes watering and arranging the plants convenient. I especially like being able to reach the corners without disturbing the whole setup.",
+    "commodityName": "Exo Terra Pro Terrarium \u00b7 Demo review",
+    "reviewTime": 1795305600000,
+    "likeCount": 0,
+    "isDemo": true
+  },
+  {
+    "nickName": "Demo customer 03",
+    "reviewRate": 4,
+    "reviewTitle": "Clean design and a practical size",
+    "reviewContent": "The enclosure looks neat and gives me plenty of room for a small planted display. I would have liked a more detailed setup guide in the box.",
+    "commodityName": "Exo Terra Pro Terrarium \u00b7 Demo review",
+    "reviewTime": 1795132800000,
+    "likeCount": 0,
+    "isDemo": true
+  },
+  {
+    "nickName": "Demo customer 04",
+    "reviewRate": 5,
+    "reviewTitle": "A peaceful corner at home",
+    "reviewContent": "With a few plants and pieces of wood, this has become a lovely focal point in the room. The view through the glass is bright and clear.",
+    "commodityName": "Exo Terra Pro Terrarium \u00b7 Demo review",
+    "reviewTime": 1794960000000,
+    "likeCount": 0,
+    "isDemo": true
+  }
+]

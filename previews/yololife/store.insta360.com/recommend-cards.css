@@ -1,0 +1,19 @@
+#luna-recommend{padding:40px 0 40px 24px;background:#f8f9fd;position:relative;text-align:left}
+#luna-recommend header{margin-bottom:16px}#luna-recommend h2{margin:0;font-size:32px;line-height:1.2;font-weight:700}
+#luna-recommend .rail{display:flex;gap:24px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;padding-right:24px;overscroll-behavior-x:contain}#luna-recommend .rail::-webkit-scrollbar{display:none}
+#luna-recommend .product{display:block;flex:0 0 422px;height:514px;background:#fff;border-radius:16px;overflow:hidden;scroll-snap-align:start;text-align:left;color:#27272a;text-decoration:none;transition:box-shadow .25s}
+#luna-recommend .product:hover{box-shadow:0 8px 24px #00000009}
+#luna-recommend .product-image{height:370px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#luna-recommend .product-image img{width:346px;height:346px;max-width:100%;object-fit:contain;margin:0;transition:transform .35s}
+#luna-recommend .product:hover img{transform:scale(1.025)}
+#luna-recommend .product-copy{padding:0 24px 24px}
+#luna-recommend .product h3{font-size:20px;font-weight:600;line-height:26px;margin:0;min-height:52px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;white-space:pre-line;text-align:left}
+#luna-recommend .product:first-child h3{font-size:16px}
+#luna-recommend .purchase{display:flex;justify-content:space-between;align-items:center;margin-top:28px;gap:12px}
+#luna-recommend .purchase strong{font-size:24px;line-height:32px;font-weight:600;white-space:nowrap}#luna-recommend .purchase small{font-size:16px;font-weight:500}
+#luna-recommend button.pill{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:0 20px;border:0;border-radius:24px;background:#3eae43;color:#fff;font-size:13px;font-weight:600;margin:0;cursor:pointer}
+#luna-recommend .rail-arrow{position:absolute;z-index:2;top:50%;width:48px;height:48px;display:grid;place-items:center;padding:0;margin:0;border:0;border-radius:50%;background:rgba(0,0,0,.1);color:#fff;cursor:pointer}#luna-recommend .prev{left:6px}#luna-recommend .next{right:20px}#luna-recommend .rail-arrow:disabled{opacity:0;pointer-events:none}#luna-recommend .rail-arrow svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}#luna-recommend .rail-arrow:hover{background:rgba(0,0,0,.2)}
+@media(max-width:600px){#luna-recommend{padding:24px 0 24px 16px}#luna-recommend h2{font-size:26px}#luna-recommend .rail{gap:16px;padding-right:16px}#luna-recommend .product{flex-basis:290px;height:400px}#luna-recommend .product-image{height:270px}#luna-recommend .product-image img{max-width:85%;max-height:240px}#luna-recommend .product-copy{padding:0 18px 18px}#luna-recommend .product h3,#luna-recommend .product:first-child h3{font-size:16px;line-height:22px;min-height:44px}#luna-recommend .purchase{margin-top:20px}#luna-recommend .purchase strong{font-size:20px}#luna-recommend .purchase small{font-size:13px}#luna-recommend .rail-arrow{width:40px;height:40px}}
+#luna-recommend button.pill{min-width:96px;font-size:14px;font-weight:500;white-space:nowrap}@media(max-width:700px){#luna-recommend button.pill{height:36px;min-width:80px;padding:0 14px;font-size:12px}}
+
+#luna-recommend .product h3,#luna-recommend .product:first-child h3{font-size:16px!important;line-height:24px}

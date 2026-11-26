@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>置顶</title>
+    <defs>
+        <path d="M1.84327654,6.68849701 L7.17678456,1.42655568 C7.50441216,1.1033243 7.50797599,0.575698856 7.18474461,0.248071265 C6.86151323,-0.0795563269 6.33388778,-0.0831201597 6.00626019,0.240111221 L0.372106897,5.79866366 C-0.0996768348,6.26411685 -0.123474827,7.0121244 0.304337847,7.50601616 L0.372106897,7.57833036 L6.00626019,13.1368828 C6.33388778,13.4601142 6.86151323,13.4565503 7.18474461,13.1289228 C7.50797599,12.8012952 7.50441216,12.2736697 7.17678456,11.9504383 L1.84327654,6.68849701 Z" id="path-1"></path>
+    </defs>
+    <g id="置顶" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(2.000000, 2.000000)">
+            <g id="bold/outline/arrow2" transform="translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) ">
+                <g id="编组">
+                    <rect id="background" x="0" y="0" width="20" height="20"></rect>
+                    <g id="formal" transform="translate(5.801610, 3.318867)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="蒙版" fill="#000000" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="backup" transform="translate(6.458333, 4.152201)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

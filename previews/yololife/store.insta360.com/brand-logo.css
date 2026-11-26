@@ -1,0 +1,39 @@
+/* YOLOlife wordmark replacement for the local store mirror. */
+#yolo-nav a.xbEtg3IJ{width:168px!important;height:25px!important;background-image:url("./yl-logo-wordmark-dark.webp")!important;background-size:100% auto!important;background-position:center!important;background-repeat:no-repeat!important}
+
+/* Ensure the local header remains visible when the downloaded page scripts are unavailable. */
+#yolo-nav #yolo-nav-wrap{min-height:64px;display:flex!important;align-items:center;justify-content:space-between}
+#yolo-nav .__5rIsrQ9P{display:flex!important;align-items:center;gap:clamp(18px,3vw,48px)}
+#yolo-nav a.xbEtg3IJ{display:block!important;flex:0 0 168px!important}
+#yolo-nav ul.offline-nav-links{display:flex!important;align-items:center;gap:clamp(10px,2vw,30px);margin:0;padding:0;list-style:none}
+#yolo-nav .offline-nav-secondary>a,#yolo-nav .offline-products-fallback{display:flex;align-items:center;gap:8px;height:64px;padding:0 8px;color:#262629;text-decoration:none;font-family:inherit;font-size:14px;font-weight:500;line-height:1.2;white-space:nowrap}
+#yolo-nav .offline-nav-secondary>a:hover,#yolo-nav .offline-products-fallback:hover{color:#111;text-decoration:underline;text-underline-offset:5px}
+@media(max-width:700px){#yolo-nav #yolo-nav-wrap{min-height:58px}#yolo-nav .__5rIsrQ9P{gap:10px}#yolo-nav a.xbEtg3IJ{flex-basis:130px!important;width:130px!important;height:22px!important}#yolo-nav .offline-nav-secondary{display:none}#yolo-nav .offline-products-trigger,#yolo-nav .offline-products-fallback{height:58px;padding:0 8px;font-size:14px}}
+/* Keep the header pinned and visible; the downloaded storefront hides it during scroll hydration. */
+#g-header.vbJyA6l5{display:block!important;position:sticky!important;top:0!important;z-index:2000!important;opacity:1!important;visibility:visible!important;transform:none!important}
+#g-header .GlOOlrKt,#g-header .Nsa_dzaP,#yolo-nav{opacity:1!important;visibility:visible!important;transform:none!important}
+#yolo-nav{position:relative!important;top:0!important;background:#fff!important}
+
+#__next #g-header{display:none!important}
+body>#yolo-nav{display:block!important;position:sticky!important;top:0!important;z-index:3000!important;min-height:64px;background:#fff!important;border-bottom:1px solid #eee}
+#yolo-nav-wrap{max-width:1600px;margin:auto;padding:0 28px;box-sizing:border-box}
+#yolo-nav .C6xxU95R{display:block!important;visibility:visible!important}
+
+@media(max-width:700px){#yolo-nav-wrap{padding:0 16px}body>#yolo-nav{min-height:58px}}
+
+#yolo-nav .mtT8rtRR{display:flex!important;align-items:center;gap:22px;flex-shrink:0}
+#yolo-nav .mtT8rtRR button{display:flex!important;align-items:center;justify-content:center;width:28px;height:36px;padding:0;border:0;background:transparent;color:#262629;cursor:pointer}
+#yolo-nav .mtT8rtRR svg{display:block;width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:700px){#yolo-nav .mtT8rtRR{gap:10px}#yolo-nav .mtT8rtRR button{width:24px}#yolo-nav a.xbEtg3IJ{width:112px!important;flex-basis:112px!important}#yolo-nav .__5rIsrQ9P{gap:4px}}
+
+/* Flat aquarium navigation: no dropdown panels or hover triggers. */
+#yolo-nav .__5rIsrQ9P{flex:1;min-width:0;gap:28px}
+#yolo-nav .C6xxU95R{min-width:0;flex:1;overflow-x:auto!important;scrollbar-width:none}
+#yolo-nav .C6xxU95R::-webkit-scrollbar{display:none}
+#yolo-nav ul.offline-nav-links{gap:clamp(12px,1.4vw,24px);width:max-content;overflow:visible}
+#yolo-nav .yolo-menu-item{flex:0 0 auto;list-style:none}
+#yolo-nav .yolo-menu-item button{display:block;height:64px;padding:0;border:0;background:transparent;color:#262629;font-family:inherit;font-size:14px;font-weight:500;white-space:nowrap;cursor:pointer}
+#yolo-nav .yolo-menu-item button:hover{color:#666}
+#yolo-nav .mtT8rtRR{margin-left:24px}
+@media(max-width:1100px){#yolo-nav .__5rIsrQ9P{gap:20px}#yolo-nav ul.offline-nav-links{gap:18px}}
+@media(max-width:700px){#yolo-nav-wrap{flex-wrap:wrap}#yolo-nav .__5rIsrQ9P{display:contents!important}#yolo-nav a.xbEtg3IJ{margin:18px 0}#yolo-nav .C6xxU95R{order:3;flex:0 0 100%;width:100%}#yolo-nav .yolo-menu-item button{height:44px}#yolo-nav .mtT8rtRR{margin-left:auto}}
