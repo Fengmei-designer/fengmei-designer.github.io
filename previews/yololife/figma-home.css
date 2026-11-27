@@ -77,6 +77,10 @@
 /* Consistent purchase-button height on desktop and mobile. */
 .shop-section .purchase .pill,#accessories .product .pill{height:48px;min-height:48px;box-sizing:border-box;align-items:center;justify-content:center}
 
-/* Lift homepage floating controls by 100px. */
+/* Homepage controls lowered toward the footer divider. */
 .page-tools{bottom:110px}
 @media(max-width:700px){.page-tools{bottom:74px}}
+
+.page-tools{opacity:1;transition:opacity .14s ease}
+.page-tools.is-scrolling:not(:hover):not(:focus-within){opacity:.1}
+@media(prefers-reduced-motion:reduce){.page-tools{transition:none}}

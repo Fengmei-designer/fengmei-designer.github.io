@@ -11,3 +11,17 @@
  document.addEventListener('pointerdown',e=>{if(!contact.contains(e.target)){contact.classList.add('is-dismissed');open(false)}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){contact.classList.add('is-dismissed');open(false)}});
 })();
+
+// Keep the floating controls quiet while the visitor is reading and scrolling.
+(() => {
+ const tools=document.querySelector('.page-tools');
+ if(!tools)return;
+ let idleTimer;
+ const restore=()=>{clearTimeout(idleTimer);tools.classList.remove('is-scrolling')};
+ window.addEventListener('scroll',()=>{
+  tools.classList.add('is-scrolling');
+  clearTimeout(idleTimer);
+  idleTimer=setTimeout(restore,180);
+ },{passive:true});
+ window.addEventListener('pagehide',restore);
+})();
