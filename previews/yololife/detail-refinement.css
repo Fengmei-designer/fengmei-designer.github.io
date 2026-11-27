@@ -21,3 +21,8 @@
 
 /* Desktop purchase widths requested by the design. */
 @media(min-width:768px){#pStickyTabBar #product_submit_btn{width:140px!important;min-width:140px!important;flex:0 0 140px}#pStickyTabBar .detail-buy-now{width:180px;min-width:180px;flex:0 0 180px}}
+
+/* Shared purchase-bar sizing on desktop and mobile. */
+#pStickyTabBar #product_submit_btn,#pStickyTabBar .detail-buy-now{box-sizing:border-box;height:48px!important;min-height:48px!important;max-height:48px!important;padding:0!important;border-radius:24px!important;display:inline-flex;align-items:center;justify-content:center}
+#pStickyTabBar .ekSaJ5Z0{font-size:28px;line-height:32px}
+#pStickyTabBar .ekSaJ5Z0 small{font-size:18px;font-weight:400}

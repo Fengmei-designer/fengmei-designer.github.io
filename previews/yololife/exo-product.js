@@ -1,6 +1,7 @@
 (()=>{
  const slides=[...document.querySelectorAll('[data-exo-slide]')],thumbs=[...document.querySelectorAll('[data-exo-thumb]')];let current=0;
- const show=i=>{current=(i+slides.length)%slides.length;slides.forEach((s,j)=>{s.classList.toggle('exo-active',j===current);s.setAttribute('aria-hidden',String(j!==current))});thumbs.forEach((b,j)=>{b.classList.toggle('gy0EPjd4',j===current);b.setAttribute('aria-pressed',String(j===current))})};
+ const load=s=>{const img=s.querySelector('img');if(img.dataset.src){img.src=img.dataset.src;delete img.dataset.src}};
+ const show=i=>{current=(i+slides.length)%slides.length;load(slides[current]);slides.forEach((s,j)=>{s.classList.toggle('exo-active',j===current);s.setAttribute('aria-hidden',String(j!==current))});thumbs.forEach((b,j)=>{b.classList.toggle('gy0EPjd4',j===current);b.setAttribute('aria-pressed',String(j===current))})};
  thumbs.forEach((b,i)=>b.onclick=()=>show(i));
  document.querySelector('#pSideL [aria-label="Previous slide"]').onclick=()=>show(current-1);
  document.querySelector('#pSideL [aria-label="Next slide"]').onclick=()=>show(current+1);show(0);
